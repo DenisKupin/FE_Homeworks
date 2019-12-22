@@ -1,0 +1,141 @@
+.kar{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(grey, white);
+}
+.face{
+    float: left;
+    width: 120px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.upp{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 4px;
+}
+.page{
+    padding: 25px;
+    margin: 25px;
+    height: 470px;
+    width: 70%;
+    background-color: rgb(255, 218, 224);
+}
+.haf{
+    color: green;
+    font-weight: bold;
+}
+.img1{
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+.img2{
+    float: right;
+}
+.blq{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+}
+.cards{
+    width: 800px;
+    height: 800px;
+    background-color: #0d5825;
+}
+.card01{
+    display: block;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    width: 150px;
+    transform: rotate(10deg);
+    z-index: 3;
+}
+.card02{
+    top: -25%;
+    left: 350px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.card03{
+    top: -54%;
+    left: 310px;
+    transform: rotate(-20deg);
+    z-index: 1;
+}
+.boxes{
+    height: 600px;
+    width: 600px;
+    background-color: wheat;
+    position: relative;
+}
+.inst{
+    position: relative;
+    width: 35px;
+    border: 2px solid;
+    padding: 15px 30px 30px 15px;
+    margin: 30px 0px 0px 30px;
+    background-color: rgb(236, 157, 128);
+}
+.inst1{
+    z-index: 1;
+}
+.inst2{
+    z-index: 2;
+    left: -75px;
+    top: 40px;
+}
+.inst3{
+    z-index: 3;
+    left: -150px;
+    top: 80px;
+} 
+.inst4{
+    z-index: 4;
+    left: -225px;
+    top: 120px;
+}
+.bigger{
+    position: relative;
+    width: 100px;
+    border: 2px solid;
+    padding: 15px 30px 30px 15px;
+    margin: 30px 0px 0px 30px;
+    background-color: rgb(236, 157, 128);
+    display: none;
+    top: 0px;
+}
+.inst1:hover + .bigger{
+    z-index: 5;
+    display: block;
+    position: absolute;
+}
+.inst2:hover + .bigger{
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 43px;
+}
+.inst3:hover + .bigger{
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 86px;   
+}
+.inst4:hover + .bigger{
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 129px;   
+}

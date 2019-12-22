@@ -1,0 +1,79 @@
+.quote{
+    color: red;
+}
+h3:first-of-type{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+div p{
+    color: red;
+}
+p:nth-of-type(3n){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+li{
+    list-style: none;
+}
+li::before{
+    content: "-";
+}
+li:nth-of-type(3n+1){
+    background-color: yellow;
+}
+li:first-of-type{
+    color: green;
+}
+li:nth-of-type(odd){
+    font-size: 18px;
+}
+li:nth-of-type(even){
+    font-size: 20px;
+}
+li:hover{
+    border: 1px solid black;
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+}
+.t1{
+    position: relative;
+    color: green;
+    text-decoration: none;
+    font-size: 40px;
+}
+.t2{
+    position: relative;
+    display: none;
+    color: green;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:hover .t1{
+    display: none;
+}
+a:hover .t2{
+    display: inline;
+}
+.bg-box{
+    height: 600px;
+    width: 1000px;
+    background-image: url(images/house.jpg),
+    url(images/lamp.png),
+    url(images/ejik.png),
+    url(images/don.png),
+    url(images/green.png);
+    background-position:center center, top, left, right, bottom;
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+    background-size: 60%, 5%, 5%, 5%, 15%;
+    background-color: green;
+}
+
